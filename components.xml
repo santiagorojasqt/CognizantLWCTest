@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Product_Cart_Configuration__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Product_Cart_Configuration__mdt.Parent_Object__c</members>
+        <members>Product_Cart_Configuration__mdt.Child_Item_to_create__c</members>
+        <members>Product_Cart_Configuration__mdt.fields_to_populate__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Product_Cart_Configuration__mdt.Opportunity</members>
+        <members>Product_Cart_Configuration__mdt.Order</members>
+        <name>CustomMetadata</name>
+    </types>
+    <types>
+        <members>dynamicCartLWC</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>cartController</members>
+        <name>ApexClass</name>
+    </types>
+    <version>51.0</version>
+</Package>
